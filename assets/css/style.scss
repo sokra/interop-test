@@ -1,7 +1,34 @@
 ---
 ---
+
 @import "{{ site.theme }}";
 
 th code {
   color: white;
+}
+
+body {
+  padding-left: 50px;
+}
+
+hr {
+  margin: 0;
+}
+
+header {
+  float: unset;
+  width: unset;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 25px;
+}
+
+.wrapper {
+  width: unset;
+}
+
+section {
+  float: unset;
+  width: unset;
 }
