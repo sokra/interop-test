@@ -2,7 +2,7 @@
 
 ## Test fixtures
 
-See `modules` directory for details
+See [`modules` directory](https://github.com/sokra/interop-test/tree/main/modules) for details
 
 - `named-and-default-export` = `exports.named = "named"; exports.default = "default";`
 - `named-and-null-default-export` = `exports.named = "named"; exports.default = null;`
