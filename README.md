@@ -4,12 +4,16 @@
 
 See [`modules` directory](https://github.com/sokra/interop-test/tree/main/modules) for details
 
-- `named-and-default-export` = `exports.named = "named"; exports.default = "default";`
-- `named-and-null-default-export` = `exports.named = "named"; exports.default = null;`
+- `named-and-default-export`
+  - `exports.named = "named"; exports.default = "default";`
+- `named-and-null-default-export`
+  - `exports.named = "named"; exports.default = null;`
   - Is a falsy default export handled different from a truthy default export?
-- `named-export` = `exports.named = "named";`
+- `named-export`
+  - `exports.named = "named";`
   - How are only named exports handled?
-- `-esModule` = `Object.defineProperty(exports, "__esModule", { value: true });`
+- `-esModule`
+  - `Object.defineProperty(exports, "__esModule", { value: true });`
   - How is the default export handled with `__esModule`?
 - `-non-enumerable` = Exports defined with `Object.defineProperty(exports, "name", { value: "value" });`
   - Does non-enumerable exports behave like normal exports?
@@ -17,12 +21,16 @@ See [`modules` directory](https://github.com/sokra/interop-test/tree/main/module
   - Does inherited exports behave like normal exports?
 - `-runtime` = Export keys and values not compile time constant, also for \_\_esModule
   - Is the behavior different when module is not statically analysable?
-- `order.js` = `exports.b = "b"; exports.a = "a"; exports.c = "c";`
+- `order.js`
+  - `exports.b = "b"; exports.a = "a"; exports.c = "c";`
   - Are exports exports in namespace objects alphabetically ordered?
-- `single-` = `module.exports = ...`
+- `single-`
+  - `module.exports = ...`
   - How is a single `module.exports` export handled?
-- `single-...-defined` = `Object.defineProperty(module, "exports", { value: ... })`
-- `single-promise-` = `module.exports = Promise.resolve(...)`
+- `single-...-defined`
+  - `Object.defineProperty(module, "exports", { value: ... })`
+- `single-promise-`
+  - `module.exports = Promise.resolve(...)`
   - Is a Promise handled when using `import()`? Is it handled like Top-Level-Await when using `import`?
 
 ## Results
