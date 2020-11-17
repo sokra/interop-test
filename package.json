@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "tests": "node lib/runNodeTest.js && node lib/runWebpack5Test.js && node lib/runRollupTest.js && node lib/runEsbuildTest.js && node lib/runWebpack4Test.js"
+  },
   "devDependencies": {
     "prettier": "^2.1.2"
   }
