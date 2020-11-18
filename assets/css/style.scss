@@ -31,7 +31,8 @@ table {
   position: relative;
 }
 
-th code {
+th code,
+td:first-child code {
   color: white;
 }
 
