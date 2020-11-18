@@ -54,12 +54,20 @@ See [`modules` directory](https://github.com/sokra/interop-test/tree/main/module
 
 For readablility some shortcuts are applied:
 
-- `__esModule`: `[__esModule]: true`
-- `named`: `named: 'named'`
-- `default`: `default: 'default'`
-- `[named]`: `[named]: 'named'` (non enumerable)
-- `[G]`: `[Getter]`
-- `Module`: `[Symbol(Symbol.toStringTag)]: 'Module'`
+- `__esModule`
+  - `[__esModule]: true`
+- `named`
+  - `named: 'named'`
+- `default`
+  - `default: 'default'`
+- `[named]`
+  - `[named]: 'named'` (non enumerable)
+- `[default]`
+  - `[default]: 'default'` (non enumerable)
+- `[G]`
+  - `[Getter]`
+- `Module`
+  - `[Symbol(Symbol.toStringTag)]: 'Module'`
 
 ### Node.js
 
