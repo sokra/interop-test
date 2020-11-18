@@ -67,6 +67,13 @@ See [`modules` directory](https://github.com/sokra/interop-test/tree/main/module
 - `-reexport`
   - Module is reexported via `module.export = require("...")`
   - Is there a behavior change from reexporting?
+- `(mjs)`
+  - `.mjs` file or `.js` file with package.json with `"type": "module"`
+  - Is the ESM syntax supported in ESM-flagged files?
+  - Is the behavior different in ESM-flagged files vs. non-ESM-flagged files?
+- `(js)`
+  - `.js` file without `"type": "module"` in package.json
+  - Is ESM syntax in not ESM-flagged files supported?
 
 ## Results
 
