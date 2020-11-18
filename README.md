@@ -306,8 +306,8 @@ Version: `webpack@4.44.2` `webpack-cli@4.2.0` `node@15.2.1`
 
 ## Results by test case
 
-- 🟠 hard outliner
-- 🟡 outliner
+- 🟠 hard outlier
+- 🟡 outlier
 - ✅ very common value
 
 <!-- module results -->
@@ -1280,8 +1280,8 @@ Version: `webpack@4.44.2` `webpack-cli@4.2.0` `node@15.2.1`
 
 ## Results by syntax
 
-- 🟠 hard outliner
-- 🟡 outliner
+- 🟠 hard outlier
+- 🟡 outlier
 - ✅ very common value
 
 <!-- syntax results -->
