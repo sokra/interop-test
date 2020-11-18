@@ -1,5 +1,19 @@
 # ESM-CJS interop test
 
+- [Results](#results)
+  - [Node.js](#nodejs)
+  - [Babel](#babel)
+  - [Webpack](#webpack)
+  - [Rollup.js](#rollup)
+  - [esbuild](#esbuild)
+- [Results by test case](#results-by-test-case)
+- [Results by syntax](#results-by-syntax)
+  - [`import x`](#import-x-mjs) and similar
+  - [`import { named }`](#import--named-as-x--mjs) and similar
+  - [`import { __esModule }`](#import--__esmodule-as-x--mjs) and similar
+  - [`import *`](#import--as-x-mjs) and similar
+  - [`import()`](#import-mjs) and similar
+
 ## Test fixtures
 
 See [`modules` directory](https://github.com/sokra/interop-test/tree/main/modules) for details
