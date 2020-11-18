@@ -118,6 +118,9 @@ Version: `node@15.2.1`
 
 ### Babel
 
+- `.mjs` is compiled with `sourceType: "module"`.
+- `.js` is compiled with `sourceType: "unambiguous"`.
+
 <!-- babel results -->
 
 Version: `@babel/cli@7.12.1` `@babel/core@7.12.3` `@babel/plugin-transform-modules-commonjs@7.12.1` `babel-plugin-dynamic-import-node@2.3.3` `node@15.2.1`
