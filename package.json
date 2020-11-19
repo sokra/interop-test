@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "tests": "node lib/runNodeTest.js && node lib/runBabelTest.js && node lib/runBabelUnambiguousTest.js && node lib/runWebpackTest.js && node lib/runWebpackJsTest.js && node lib/runRollupTest.js && node lib/runEsbuildTest.js && node lib/runWebpack4Test.js && node lib/runWebpack4MjsTest.js && node lib/mergeResults.js && yarn prettier --write README.md"
+    "tests": "node lib/runNodeTest.js && node lib/runBabelTest.js && node lib/runBabelJsTest.js && node lib/runWebpackTest.js && node lib/runWebpackJsTest.js && node lib/runRollupTest.js && node lib/runEsbuildTest.js && node lib/runWebpack4Test.js && node lib/runWebpack4MjsTest.js && node lib/mergeResults.js && yarn prettier --write README.md"
   },
   "devDependencies": {
     "prettier": "^2.1.2"
