@@ -13,6 +13,10 @@
   - [`import { __esModule }`](#import--__esmodule-as-x--mjs) and similar
   - [`import *`](#import--as-x-mjs) and similar
   - [`import()`](#import-mjs) and similar
+- [Direct differences](#direct-differences)
+  - Babel <-> Webpack <-> Node.js (`.mjs`)
+  - Webpack `.mjs` <-> `.js`
+  - Babel `.mjs` <-> `.js`
 
 ## Test fixtures
 
@@ -1391,7 +1395,7 @@ Version: `webpack@4.44.2` `node@15.2.1`
 
 ## Direct differences
 
-### Babel <-> Webpack <-> Node.js
+### Babel <-> Webpack <-> Node.js (`.mjs`)
 
 When using `.mjs` Babel and Webpack try to be compatible to Node.js.
 
