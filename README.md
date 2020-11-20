@@ -8,11 +8,11 @@
   - [esbuild](#esbuild)
 - [Results by test case](#results-by-test-case)
 - [Results by syntax](#results-by-syntax)
-  - [`import x`](#import-x-mjs) and similar
-  - [`import { named }`](#import--named-as-x--mjs) and similar
-  - [`import { __esModule }`](#import--__esmodule-as-x--mjs) and similar
-  - [`import *`](#import--as-x-mjs) and similar
-  - [`import()`](#import-mjs) and similar
+  - [`import x`](#import-x) and similar
+  - [`import { named }`](#import--named-as-x-) and similar
+  - [`import { __esModule }`](#import--__esmodule-as-x-) and similar
+  - [`import *`](#import--as-x) and similar
+  - [`import()`](#import) and similar
 - [Direct differences](#direct-differences)
   - [Webpack <-> Node.js (`.mjs`)](#webpack---nodejs-mjs)
   - [Babel <-> Node.js (`.mjs`)](#babel---nodejs-mjs)
