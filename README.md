@@ -13,10 +13,10 @@
   - [`import { __esModule }`](#import--__esmodule-as-x-) and similar
   - [`import *`](#import--as-x) and similar
   - [`import()`](#import) and similar
-  - [`require().default`](#x---require----x-default) and similar
-  - [`require().named`](#x---require----x-named) and similar
-  - [`require().__esModule`](#x---require----x-__esmmodule) and similar
-  - [`require()`](#x---require--) and similar
+  - [`require().default`](#x--require-xdefault) and similar
+  - [`require().named`](#-named---require) and similar
+  - [`require().__esModule`](#-__esmodule---require) and similar
+  - [`require()`](#x--require) and similar
 - [Direct differences](#direct-differences)
   - [Webpack <-> Node.js (`.mjs`)](#webpack---nodejs-mjs)
   - [Babel <-> Node.js (`.mjs`)](#babel---nodejs-mjs)
