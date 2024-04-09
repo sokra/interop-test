@@ -17,6 +17,7 @@ For readablility some shortcuts are applied:
 - `[G]`
   - `[Getter]`
 - `[Module]`
+
   - `[Symbol(Symbol.toStringTag)]: 'Module'`
 
 - 💎 hard outlier

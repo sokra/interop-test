@@ -1,4 +1,3 @@
-
 # Results by syntax
 
 For readablility some shortcuts are applied:
@@ -18,6 +17,7 @@ For readablility some shortcuts are applied:
 - `[G]`
   - `[Getter]`
 - `[Module]`
+
   - `[Symbol(Symbol.toStringTag)]: 'Module'`
 
 - 💎 hard outlier
