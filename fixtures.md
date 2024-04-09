@@ -1,0 +1,58 @@
+# Test fixtures
+
+See [`modules` directory](https://github.com/sokra/interop-test/tree/main/modules) for details
+
+- `default-export`
+  - `exports.default = "default";`
+- `named-and-default-export`
+  - `exports.named = "named"; exports.default = "default";`
+- `named-and-null-default-export`
+  - `exports.named = "named"; exports.default = null;`
+  - Is a falsy default export handled different from a truthy default export?
+- `named-export`
+  - `exports.named = "named";`
+  - How are only named exports handled?
+- `tla`
+  - `await Promise.resolve();`
+  - A module using top-level-await
+  - Is this syntax supported?
+- `order.js`
+  - `exports.b = "b"; exports.a = "a"; exports.c = "c";`
+  - Are exports in namespace objects alphabetically ordered?
+- `single-`
+  - `module.exports = ...`
+  - How is a single `module.exports` export handled?
+- `single-...-defined`
+  - `Object.defineProperty(module, "exports", { value: ... })`
+- `single-promise-`
+  - `module.exports = Promise.resolve(...)`
+  - Is a Promise handled when using `import()`?
+  - Is it handled like Top-Level-Await when using `import`?
+- `-esModule`
+  - `Object.defineProperty(exports, "__esModule", { value: true });`
+  - How is the default export handled with `__esModule`?
+- `-non-enumerable`
+  - Exports defined with `Object.defineProperty(exports, "name", { value: "value" });`
+  - Does non-enumerable exports behave like normal exports?
+- `-getter`
+  - Exports defined with `Object.defineProperty(exports, "name", { get: () => "value" });`
+  - Does getter exports behave like normal exports?
+- `-inherited`
+  - Exports set on the prototype of `exports`
+  - Does inherited exports behave like normal exports?
+- `-runtime`
+  - Export keys and values not compile time constant, also for \_\_esModule
+  - Is the behavior different when module is not statically analysable?
+- `-live`
+  - Exports are set one tick after module evaluation
+  - Are exports live-bindings or copied after evaluation?
+- `-esm-reexport`
+  - Module is reexported via `export * from "..."`
+  - Is there a behavior change from reexporting?
+  - Is default export (incorrectly) exported?
+- `-reexport`
+  - Module is reexported via `module.export = require("...")`
+  - Is there a behavior change from reexporting?
+- `-esm`
+  - An ESM module
+  - How does the ESM module compare to the CommonJS equivalent?
