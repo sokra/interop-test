@@ -6,6 +6,7 @@
   - [Babel](by-tool#babel)
   - [Webpack](by-tool#webpack)
   - [Rollup.js](by-tool#rollup)
+  - [Parcel](by-tool#parcel)
   - [esbuild](by-tool#esbuild)
 - [Results by test case](by-test-case)
 - [Results by syntax](by-syntax)
