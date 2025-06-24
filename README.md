@@ -1,6 +1,6 @@
 # ESM-CJS interop test
 
-- [Test Cases](fixutures)
+- [Test Cases](fixtures)
 - [Results](by-tool)
   - [Node.js](by-tool#nodejs)
   - [Babel](by-tool#babel)
